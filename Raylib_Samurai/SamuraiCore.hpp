@@ -5,7 +5,7 @@
 namespace sam_core
 {
 
-	//Set Windows config: Takes the physical monitor values and set the max window size, VSYNC, Size, etc...
+	// Set Windows settings: Takes the physical monitor values and set the max window size, VSYNC, Size, etc...
 	bool SetWindowConfig()
 	{
 		InitWindow(300, 300, "Samurai - Verificador");
@@ -38,7 +38,15 @@ namespace sam_core
 			return true;
 		}
 	}
-	
+	// Set AudioDevice settings and check if it's working
+	bool SetAudioConfig()
+	{
+		InitAudioDevice();
+
+		if (!IsAudioDeviceReady())
+			return false;
+		else return true;
+	}
 	// Close all devices so the window can close properly
 	void CloseProperly()
 	{
