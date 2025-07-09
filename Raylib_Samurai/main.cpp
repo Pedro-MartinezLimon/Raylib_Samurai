@@ -2,20 +2,22 @@
 
 int main()
 { 
-	sam_core::SetWindowConfig();
-	sam_core::SetAudioConfig();
+	if (!samurai_core::WindowSettings())
+		return -1;
 
-
+	
 	while (!WindowShouldClose())
 	{
 		BeginDrawing();
-
 		ClearBackground(WHITE);
+
+		DrawFPS(10, 10);
+
 
 		EndDrawing();
 	}
 
-	sam_core::CloseProperly();
-
+	
+	samurai_core::End();
 	return 0;
 }
