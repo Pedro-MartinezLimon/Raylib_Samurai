@@ -11,7 +11,6 @@ int main()
 		BeginDrawing();
 		ClearBackground(WHITE);
 
-		DrawFPS(10, 10);
 
 
 		EndDrawing();

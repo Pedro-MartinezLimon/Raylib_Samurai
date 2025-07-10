@@ -130,10 +130,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />
-    <ClInclude Include="SamuraiCore.hpp" />
+    <ClInclude Include="Samurai_headers\SamuraiCore.hpp" />
+    <ClInclude Include="Samurai_headers\SamuraiFont.hpp" />
+    <ClInclude Include="Samurai_headers\SamuraiMusic.hpp" />
+    <ClInclude Include="Samurai_headers\SamuraiSound.hpp" />
+    <ClInclude Include="Samurai_headers\SamuraiTexture.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Samurai_headers\SamuraiFont.cpp" />
+    <ClCompile Include="Samurai_headers\SamuraiMusic.cpp" />
+    <ClCompile Include="Samurai_headers\SamuraiSound.cpp" />
+    <ClCompile Include="Samurai_headers\SamuraiTexture.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

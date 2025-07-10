@@ -13,18 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Samurai">
+      <UniqueIdentifier>{05529a20-c990-44cb-adb6-84aecebd9414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\main">
+      <UniqueIdentifier>{7c76bae9-0b8b-49ad-a323-8bcf1430628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\main">
+      <UniqueIdentifier>{1befb7e4-e5a0-49ab-bd19-47a3173c7a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Samurai">
+      <UniqueIdentifier>{d613492c-fd1f-4acd-8876-7ae846cb056f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\main</Filter>
     </ClInclude>
-    <ClInclude Include="SamuraiCore.hpp">
-      <Filter>Archivos de encabezado</Filter>
+    <ClInclude Include="Samurai_headers\SamuraiFont.hpp">
+      <Filter>Archivos de encabezado\Samurai</Filter>
+    </ClInclude>
+    <ClInclude Include="Samurai_headers\SamuraiMusic.hpp">
+      <Filter>Archivos de encabezado\Samurai</Filter>
+    </ClInclude>
+    <ClInclude Include="Samurai_headers\SamuraiSound.hpp">
+      <Filter>Archivos de encabezado\Samurai</Filter>
+    </ClInclude>
+    <ClInclude Include="Samurai_headers\SamuraiTexture.hpp">
+      <Filter>Archivos de encabezado\Samurai</Filter>
+    </ClInclude>
+    <ClInclude Include="Samurai_headers\SamuraiCore.hpp">
+      <Filter>Archivos de encabezado\main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Samurai_headers\SamuraiFont.cpp">
+      <Filter>Archivos de origen\Samurai</Filter>
+    </ClCompile>
+    <ClCompile Include="Samurai_headers\SamuraiMusic.cpp">
+      <Filter>Archivos de origen\Samurai</Filter>
+    </ClCompile>
+    <ClCompile Include="Samurai_headers\SamuraiSound.cpp">
+      <Filter>Archivos de origen\Samurai</Filter>
+    </ClCompile>
+    <ClCompile Include="Samurai_headers\SamuraiTexture.cpp">
+      <Filter>Archivos de origen\Samurai</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
