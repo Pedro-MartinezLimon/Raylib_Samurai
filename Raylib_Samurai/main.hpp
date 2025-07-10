@@ -1,6 +1,7 @@
 #pragma once
 
 #include <raylib.h>
+#include <memory>
 
 #include "Samurai_headers/SamuraiCore.hpp"
 
